@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Details</title>
+
+    </head>
+    <body>
+
+    <h4>Your Name is:</h4><u id="name"></u>
+    <h4>Your Mobile_No is:</h4><u id="mobile"></u>
+    <h4>Your email is:</h4><u id="email"></u>
+   <h4> Your address is:</h4><u id="address"></u>
+
+      <script>
+            document.getElementById("name").innerHTML = localStorage.getItem("name");
+			document.getElementById("mobile").innerHTML = localStorage.getItem("mobile");
+            document.getElementById("email").innerHTML = localStorage.getItem("email");
+            document.getElementById("address").innerHTML = localStorage.getItem("address");
+
+        </script>
+
+     
+    </body>
+</html>
